@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Playfair+Display:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Playfair+Display:wght@500&display=swap');
 *{
     margin: 0%;
     padding: 0%;
 }
 .sidebar{
-    background-color: aqua;
+    background-color: rgb(164, 160, 143);
     width: 15vw;
     font-family: 'Playfair Display', serif;
     height: 100vh;
@@ -19,9 +20,62 @@
     padding: 35px;
 }
 .main{
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
     width: 85vw;
 }
+
 .container{
     display: flex;
+}
+.infocontainer{
+    /* background-color: azure; */
+    width: 70vw;
+    height: 55vh;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+.divpic img{
+    height: 55vh;
+}
+.divinfo{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;  */
+    font-family: 'Dosis', sans-serif;
+font-family: 'Playfair Display', serif;
+
+}
+.hello{
+    font-size: 50px;
+}
+.me{
+    font-size: 40px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.about{
+    font-size: 25px;
+    
+}
+.moreabout{
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.buttons button{
+    padding: 10px ;
+    margin: 3px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(95, 94, 90);
+    cursor: pointer;
+
 }
